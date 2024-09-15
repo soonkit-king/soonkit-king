@@ -1,0 +1,26 @@
+Audience: HR Employee
+
+What do they want to know?
+- What I look like
+- What's my name?
+- What benefit can I provide to the company?
+
+
+
+Sections
+Home
+- Shortcuts to my work
+
+
+Work
+- Showing my work in detail
+- Achievements
+
+
+About
+- Contacts (Email/LinkedIn/GitHub)
+- Downloadable CV/Resume Section
+- Credits (Work Friends that were thoughtful)
+
+
+

@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MontserratItalic;
+    src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+/* Super Section */
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #121212;
+    --accent-color: #6e6e6e;
+    --text-color: #191919;
+
+    --font-largest: 4rem;
+    --font-larger: 3rem;
+    --font-large: 2rem;
+    --font-medium: 1.4rem;
+    --font-normal: 1.2rem;
+    --font-smaller: 1rem;
+    --font-small: 0.8rem;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-smaller);
+    line-height: 1.3em;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+/******************/
+
+
+
+/* Text */
+h1, h2, h3, h4, p, abbr, small {
+    margin: 1.2rem 1.5rem;
+}
+
+h1 {
+    font-size: var(--font-largest);
+    margin-top: 4rem; /* Add specific margin-top for h1 */
+}
+
+h2 {
+    font-size: var(--font-larger);
+    margin-top: 3rem; /* Add specific margin-top for h2 */
+}
+
+h3 {
+    font-size: var(--font-large);
+    margin-top: 2rem; /* Add specific margin-top for h3 */
+}
+
+h4 {
+    font-size: var(--font-medium);
+}
+
+p, abbr {
+    font-size: var(--font-normal);
+}
+
+small {
+    font-size: var(--font-small);
+    display: block;
+    margin: 0.3rem 2rem; /* Specific margin for small */
+}
+
+a {
+    font-size: var(--font-normal);
+}
+
+/******************/
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--accent-color);
+}
+
+.navbar a {
+    color: var(--primary-color);
+    text-align: center;
+    float: left;
+    margin: 1.5rem 2.4rem;
+    text-decoration: none;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbar .links a {
+    margin-left: 1rem;
+    margin-right: 1.3rem;
+}
+
+.navbar .links a.resume{
+    margin-left: .5rem;
+    margin-right: 1.3rem;
+    padding: 0.4rem 1.4em;
+    border-radius: 30px;
+    border: 2px solid var(--primary-color);
+    letter-spacing: 0.5px;
+    font-size: var(--font-smaller);
+}
+/******************/
+
+
+
+/* Hero */
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color);
+}
+
+.hero img {
+    overflow: hidden;
+    width: 29rem;
+    height: 30rem;
+    padding: 0;
+    margin: 0 2rem 0 0;
+}
+
+.hero .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+/******************/
+
+
+
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding-top: 7%;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+    padding: 0 0 5rem 0;
+}
+
+footer .portrait {
+    overflow: hidden;
+    width: 16rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: #797979;
+    padding: 0;
+    margin: 0 2rem 0 0;
+}
+
+footer .portrait img {
+    object-fit: contain;
+    width: 110%;
+    height: 90%;
+    margin: 0;
+    padding-top: 3rem;
+    padding-right: 8rem;
+    bottom: 0;
+}
+
+
+footer .contact {
+    margin-bottom: 2rem;
+}
+
+footer h1 {
+    margin-bottom: 3.5rem;
+}
+
+footer .info {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+footer .info .vert-line {
+    border-left: 3px solid var(--accent-color);
+    height: 60%;
+}
+
+footer img {
+    display: inline-block;
+    position: relative;
+    width: 2.3rem;
+    height: 100%;
+    margin: 0 0 0 1.7rem;
+}
+
+
+footer .bottom {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0;     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .corner {
+    margin-bottom: 1rem;
+    margin-right: 1.3rem;
+}
+
